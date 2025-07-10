@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+    background: url(images/bg.jpg) 
+    no-repeat center center /cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(46, 150, 235);
+}
+.clock{
+    display: flex;
+    color: #8beaff;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 130px;
+    height: 100px;
+    background:#264a79;
+    opacity: .85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0,);
+}
+.clock .text{
+    height: 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background:  #021836;
+    opacity: 0.9;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: #010710;
+    opacity: .7;
+}
